@@ -20,11 +20,12 @@ footer{
     background-color: #d9eaf7;
 }
 
+/*
 li{
     display: inline-block;
     width: 150px;
 }
-
+*/
 h1{
     text-align: center;
     font-family: Georgia, serif;
@@ -33,4 +34,30 @@ h1{
 
 p{
     line-height: 1.6;
+}
+nav{
+    display: inline-block;
+    width: 80%;
+}
+
+nav img{
+    width: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
